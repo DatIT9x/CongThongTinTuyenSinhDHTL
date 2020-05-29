@@ -1,0 +1,110 @@
+.txt-top{padding-top: 20px;} a{text-decoration: none!important;}
+/* *************NAV*********** */
+#nav{
+    background: #354148;
+}
+#nav .nav__wrapp{
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav .nav__left,#nav .nav__right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#nav .nav__left--list{
+    display: flex;
+}
+#nav .nav__left--list li{
+    padding: 15px;
+}
+/* *************NAV--END*********** */
+
+/* *************SLIDER*********** */
+#slider{
+    height: 400px;
+}
+#slider .carousel{
+    height: 100%;
+}
+#slider img{
+    width: 100%;
+    height: 100%;
+}
+
+/* *************SLIDER--END*********** */
+
+/* *************HEADER*********** */
+#header .header__wrapp{
+    display: flex;
+    justify-content: space-between;
+}
+#header .header__wrapp .header__left{
+    display: flex;
+}
+#header .header__wrapp .name-school{
+    padding: 20px 30px;
+    text-align: center;
+}
+.header__wrapp .header__left #logo{
+    padding: 10px;
+}
+.header__wrapp .header__left .name-school p:first-child{
+    font-size: 1.2em;
+    font-weight: 700;
+    color:#1b4d85;
+}
+.header__wrapp .header__left .name-school p{
+    font-size: 0.75em;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+.header__wrapp .header__right .name-school p:first-child{
+    font-size: 1.3em;
+    font-weight: 700;
+    color:#1b4d85;
+}
+.header__wrapp .header__right .name-school p{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #D51C29;
+}
+/* *************HEADER--END*********** */
+
+/* *************NAV-TOP*********** */
+#nav__bottom{
+    background: firebrick;
+}
+#nav__bottom .nav__bottom--menu{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.nav__bottom--menu .nav__menu--item a{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+}
+/* *************NAV--END*********** */
+
+/* *************MAIN*********** */
+#main #main__wrapp{
+    display: flex;
+}
+#main #main__wrapp #main__left{
+    flex: 0 0 65%;
+    width: 65%;
+}
+#main__wrapp #main__left .title__news{
+    background: royalblue;
+    color: #fff;
+    text-align: left;
+}
+#main__left .list__news .list__news--item{
+    border-bottom: 1px solid #ccc;
+}
+/* *************MAIN--END*********** */
+
+
