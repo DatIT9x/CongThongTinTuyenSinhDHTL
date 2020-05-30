@@ -18,12 +18,12 @@
         <?php 
             include("header.php");
             include("main.php");
-            
+            include("footer.php");
         ?>
 
     </div>
-    <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/bootstrap.min.js">
-    <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/jquery.min.js">
+    <script src="<?php echo base_url();?>asset/vendor/jquery.min.js"></script>
+    <script src="<?php echo base_url();?>asset/vendor/bootstrap.min.js"></script>
     <script src="<?php echo base_url();?>asset/font/a076d05399.js"></script>
     <script src="<?php echo base_url();?>asset/vendor/owlcarousel/owl.carousel.js"></script>
     <script src="<?php echo base_url();?>asset/js/script.js"></script>

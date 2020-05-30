@@ -4,20 +4,28 @@
             <div class="nav__left">
                 <ul class="nav__left--list">
                     <li class="nav__left--item">
-                        <i class="fas fa-home"></i>
-                        <a href="">Trang chủ</a>
+                        <a href="">
+                             <i class="fas fa-home"></i>
+                             Trang chủ
+                        </a>
                     </li>
                     <li class="nav__left--item">
-                        <i class="fas fa-phone-alt"></i>
-                        <a href="">Liên hệ</a>
+                        <a href="">
+                            <i class="fas fa-phone-alt"></i>
+                            Liên hệ
+                        </a>
                     </li>
                     <li class="nav__left--item">
-                        <i class="fas fa-user"></i>
-                        <a href="">Tư vấn</a>
+                        <a href="">
+                            <i class="fas fa-user"></i>
+                            Tư vấn
+                        </a>
                     </li>
                     <li class="nav__left--item">
-                        <i class="fas fa-lock"></i>
-                        <a href="">Đăng nhập</a>
+                        <a href="">
+                            <i class="fas fa-lock"></i>
+                            Đăng nhập
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -64,21 +72,27 @@
     <div class="container">
         <ul class="nav__bottom--menu">
             <li class="nav__menu--item">
+                <img style="width:50px;height:50px;" src="<?php echo base_url();?>asset/image/img/nganhtuyensinh.png" alt=""><br>
                 <a href="">THÔNG TIN XÉT TUYỂN</a>
             </li>
             <li class="nav__menu--item">
+                <img style="width:50px;height:50px;" src="<?php echo base_url();?>asset/image/img/tintuc.png" alt=""><br>
                 <a href="">THÔNG BÁO XÉT TUYỂN</a>
             </li>
             <li class="nav__menu--item">
+                <img style="width:50px;height:50px;" src="<?php echo base_url();?>asset/image/img/nganhts.png" alt=""><br>
                 <a href="">THÔNG TIN NGÀNH XÉT TUYỂN</a>
             </li>
             <li class="nav__menu--item">
+                <img style="width:50px;height:50px;" src="<?php echo base_url();?>asset/image/img/tuvan.png" alt=""><br>
                 <a href="">XÉT HỌC BẠ TRỰC TUYẾN</a>
             </li>
             <li class="nav__menu--item">
+                <img style="width:50px;height:50px;" src="<?php echo base_url();?>asset/image/img/tuvan.png" alt=""><br>
                 <a href="">TƯ VẤN TUYỂN SINH</a>
             </li>
             <li class="nav__menu--item">
+                <img style="width:50px;height:50px;" src="<?php echo base_url();?>asset/image/img/lienhe.png" alt=""><br>
                 <a href="">LIÊN HỆ</a>
             </li>
         </ul>
