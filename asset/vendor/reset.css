@@ -265,7 +265,10 @@
   textarea {
     overflow: auto;
   }
-  
+  table, th, td {
+    border: 1px solid black!important;
+    border-collapse: collapse!important;
+  }
   /**
    * 1. Add the correct box sizing in IE 10.
    * 2. Remove the padding in IE 10.
