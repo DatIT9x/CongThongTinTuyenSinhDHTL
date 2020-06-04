@@ -11,23 +11,22 @@
     <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/owlcarousel/owl.theme.default.min.css">
-    <title>Document</title>
+    <title>lienhe</title>
 </head>
 <body>
+    <div id="wrapper">
         <?php 
-           include("header.php");
-           include("slider.php");
-           include("nav-bot.php");
-           include("main.php");     
-           include("footer.php");
+            include( APPPATH.'views/home/header.php');
+            include( APPPATH.'views/home/nav-bot.php');
+            include( APPPATH.'views/lienhe/main.php');
+            include( APPPATH.'views/home/footer.php');
         ?>
-    
+
     </div>
     <script src="<?php echo base_url();?>asset/vendor/jquery.min.js"></script>
     <script src="<?php echo base_url();?>asset/vendor/bootstrap.min.js"></script>
     <script src="<?php echo base_url();?>asset/font/a076d05399.js"></script>
     <script src="<?php echo base_url();?>asset/vendor/owlcarousel/owl.carousel.js"></script>
-    <script src="<?php echo base_url();?>asset/vendor/owlcarousel/owl.carousel.min.js"></script>
     <script src="<?php echo base_url();?>asset/js/script.js"></script>
 </body>
 </html>

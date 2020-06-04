@@ -15,6 +15,7 @@ a{text-decoration: none!important;}
     height: 100%;
     display: flex;
     align-items: center;
+    
 }
 #nav .nav__left--list{
     display: flex;

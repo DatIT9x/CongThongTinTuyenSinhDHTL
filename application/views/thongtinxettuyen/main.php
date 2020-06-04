@@ -8,7 +8,7 @@
                     </h1>
                     <div class="content-wrap">
                         <h1 class="page-title">
-                            THÔNG TIN TUYỂN SINH ĐẠI HỌC CHÍNH QUY NĂM 2020
+                            <strong>THÔNG TIN TUYỂN SINH ĐẠI HỌC CHÍNH QUY NĂM 2020</strong>
                         </h1>
                         <div class="content">
                             <p>
@@ -1421,8 +1421,12 @@
                                             <option value="24" >Quản trị kinh doanh</option>
                                             <option value="25" >Kế toán</option>
                                         </select>
-                                    </div>
-                                <button type="submit" class="btn btn-info">Submit</button>
+                                </div>
+                                <div class="form-group">
+                                    <label for="diachi">Câu hỏi</label>
+                                    <textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Gửi câu hỏi</button>
                             </form>   
                         </div>
                     </div>                

@@ -11,8 +11,12 @@
     text-align: center;
 }
 .nav__bottom--menu .nav__menu--item a{
+    display: block;
     color: #fff;
     font-size: 1em;
     font-weight: 700;
+}
+.nav__bottom--menu .nav__menu--item:hover{
+    color: blue!important;
 }
 /* *************NAV-TOP--END*********** */

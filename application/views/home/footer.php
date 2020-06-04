@@ -60,10 +60,14 @@
                         </span>
                         2020
                         <a rel="author" href="https://plus.google.com/u/0/+hutech">
-                            THỦY LỢI UNIVERSITY
+                           <br> THỦY LỢI UNIVERSITY
                         </a>
                     </p>
             </div>
         </div>
+    </div>
+
+    <div id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
     </div>
 </footer>

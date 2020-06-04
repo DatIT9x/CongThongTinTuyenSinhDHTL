@@ -50,6 +50,11 @@
 #main__left .content-wrap .content p{
     padding: 0 0 20px;
 }
+#main__left .content-wrap .page-title{
+    font-size: 26px;
+    color: #b22222;
+    text-align: center;
+}
 #main #main__wrapp #main__right{
     flex-grow: 1;
     padding: 0 30px;
