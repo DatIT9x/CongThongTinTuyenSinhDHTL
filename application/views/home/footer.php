@@ -71,3 +71,46 @@
         <i class="fas fa-chevron-up"></i>
     </div>
 </footer>
+    <!-- form_login -->
+    <div id="modal__login">
+        <div class="modal__login-wrap">
+            <div class="modal__login--left">
+                <h2>Đăng nhập</h2>
+                <p>Welcome Admin mời bạn Đăng nhập</p>
+                <img src="<?php echo base_url();?>asset/image/img/graphic-map.png" alt="">
+            </div>
+            <div class="modal__login--right">
+                <form class="form-horizontal " id="form_login" action="/action_page.php">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" for="email">Email</label>
+                        <div class="col-sm-9">
+                        <input type="email" class="form-control" id="email" placeholder="Nhập email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" for="pwd">Mật khẩu</label>
+                        <div class="col-sm-9">
+                        <input type="password" class="form-control" id="pwd" placeholder="Mật khẩu từ 6 đến 32 ký tự">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="forgot-pwd">Quên mật khẩu,nhấn vào <a href="">đây</a></p>
+                        <div class="form-group" style="padding-top:20px;">
+                            <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn-login">Đăng nhập</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </form>
+                
+                
+            </div>
+            <div style="clear:both;"></div>
+            <button class="btn-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- end -->

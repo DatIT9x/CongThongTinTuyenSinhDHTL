@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/reset.css">
     <link rel="stylesheet" href="<?php echo base_url();?>asset/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>asset/vendor/owlcarousel/owl.theme.default.min.css">

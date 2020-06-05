@@ -42,4 +42,10 @@ $(document).ready(function(){
         scrollTop: 0
         }, 700);
     });
+    $('.btn-close').click(function(){
+        $("#modal__login").css("display","none");
+    })
+    $('.btn-login').click(function(){
+        $("#modal__login").css("display","block");
+    })
 })

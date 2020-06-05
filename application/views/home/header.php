@@ -17,26 +17,37 @@
                     </li>
                     <li class="nav__left--item">
                         <a href="<?php echo base_url();?>tuvantuyensinh/index">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-users"></i>
                             Tư vấn
-                        </a>
-                    </li>
-                    <li class="nav__left--item">
-                        <a href="">
-                            <i class="fas fa-lock"></i>
-                            Đăng nhập
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="nav__right">
-                <div class="nav_right--search">
-                    <form class="form-inline" action="/action_page.php">
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="pwd">
-                            <button type="submit" class="btn btn-default">Tìm kiếm</button>
+            <div class="nav__mid">
+                <div class="nav__mid--search">
+                    <form class="form-inline" id="search_form" action="/action_page.php">
+                        <div class="search">
+                                <input type="text" name="" id="search" placeholder="Tìm sản phẩm ...">
+                                <button type="button">
+                                    <i class="fas fa-search"></i>
+                                </button>
                         </div>
                     </form>
+                </div>
+            </div>
+            <div class="nav__right">
+                <div class="nav__right--login">
+                    <a href="">
+                        <i class="fas fa-user"></i>
+                        Đăng nhập
+                    </a>
+                </div>
+                <div class="form_login">
+                    <div class="login">
+                        <button type="button" class="btn-login" data-toggle="modal" data-target="#myModal">
+                            Đăng nhập
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
